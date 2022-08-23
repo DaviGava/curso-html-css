@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GROUPING TAGS</title>
+    <style>
+        *{
+            margin: 0;
+            text-decoration: none;
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+        body {
+            font-family: 'Roboto Condensed', sans-serif;
+            background-color: rgb(255, 255, 255);
+        }
+
+        #cabeçalho {
+        
+            background-color: black;
+            color: white;
+        }
+        h1 {
+            font-family: 'Nanum Gothic', sans-serif;
+            font-weight: 700;
+            padding-top: 30px;
+            color: #DF1120;
+        }
+        nav {
+            background-color: white;
+            width: 200px;
+            height: 50px; 
+            box-shadow: 3px 2px 1px rgba(0, 0, 0, 0.561);
+        }
+        a {
+            
+            color: black;
+            margin-right: 10px;
+        }
+        a:hover {
+            background-color:black ;
+            color: white;
+        }
+        main {
+            background-color: rgb(0, 0, 0);
+            color: white;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        h2 {
+            margin-bottom: 15px;
+        }
+        aside {
+            margin-top: 15px;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+        }
+    </style>
+</head>
+<body>
+    <header id="cabeçalho">
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="Notícias">
+            <article>
+                <h2>Notícias do Mundo da Música</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam sint at eum quia laudantium ipsum reprehenderit optio quaerat, repudiandae quos sapiente magnam eveniet ab facilis amet laboriosam aperiam. Dolores, nisi!</p>
+               <aside>
+                <p>Artigo escrito por Davi Gava</p>
+               </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer id="rodape">
+        <p>&copy;CursoemVídeo</p>
+    </footer>
+</body>
+</html>

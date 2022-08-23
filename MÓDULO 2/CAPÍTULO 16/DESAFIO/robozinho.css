@@ -1,0 +1,138 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+@font-face {
+    font-family:'Android' ;
+    src: url("fontes/idroid.otf") format('opentype');
+    font-weight: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+/*VARIÁVEIS EM CSS*/
+:root {
+    --font-destaque: 'Cabin', sans-serif;
+    --font-android: 'Android', cursive;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #83E1AD;
+}
+
+.cabeçalho {
+    background-image: linear-gradient(to top,#355C47, #1A5C37, #2FA866,  #3DDC84);
+}
+.cabeçalho-titulo {
+    text-align: center;
+    padding-top: 10px;
+    font-family: var(--font-destaque);
+    text-shadow: 1px 1px black;
+    font-weight: normal;
+    color: white;
+}
+.cabeçalho-p {
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+nav {
+    padding: 10px;
+}
+.nav > a {
+    padding: 5px;
+    
+    color: white;
+}
+.nav > a:hover {
+    background-color: #3DDC84;
+}
+.main {
+    min-width: 400px;
+    max-width: 805px;
+    margin: auto;
+    background-color: white;
+    font-family: var(--font-destaque);
+}
+
+.main-titulo {
+    font-family: var(--font-android);
+    padding: 10px;
+    color: #1A5C37;
+}
+
+.artigo-titulo {
+    font-family: var(--font-android);
+    margin: 10px;
+    padding: 10px;
+    background-image: linear-gradient(to right, #83E1AD, white );
+    color:#1A5C37;
+}
+
+.img-1 {
+    padding: 15px;
+}
+.img-2 {
+    padding: 15px;
+}
+.img-3 {
+    padding: 15px;
+}
+
+.video {
+    position: relative;
+    background-color: #1A5C37;
+    height: 0px;
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-bottom: 15px;
+    padding-bottom: 59%;
+}
+.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+.aside {
+    border:20px solid white;
+    margin: auto;
+    background-color:#83E1AD;
+}
+.aside-div {
+    border-radius: 50px;
+}
+.aside-titulo {
+    background-color: #1A5C37;
+    width: 100%;
+    padding: 10px;
+    color: white;
+}
+
+ul {
+    list-style-type: '\2714\0020\0020';
+    columns: 2;
+    list-style-position: inside;
+}
+
+.link-site > a {
+    color:#2FA866;
+}
+
+p {
+    margin: 15px;
+}
+
+.footer {
+    padding: 5px;
+    text-align: center;
+    background-color: #1A5C37;
+    color: white;
+}

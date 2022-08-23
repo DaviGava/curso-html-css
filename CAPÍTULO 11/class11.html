@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SITE COM VÍDEOS</title>
+</head>
+<body>
+    <h1>Vídeos em Hospedagem Local</h1> <!--ATENÇÃO: Utilizar vídeos em hospedagem PRÓPRIA gera muito consumo de Dados do servidor local-->
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+    <video width="560" controls poster="video/thumb-smoke.jpg">
+        <source src="video/video-copia.webm" type="video/webm"> 
+        <source src="video/video-copia.m4v" type="video/mp4">
+        <source src="video/video.mp4" type="video/mp4"> <!--note que os dois ultimos arquivos possuem o mesmo MEDIA TYPE-->
+        <p>Infelizmente não foi possível reproduzir o vídeo em seu navegador.<br>
+        <a href="video/video-copia.webm" download="video-copia.webm" type="video/webm">Baixe o vídeo aqui.</a>
+        </p>
+    </video>
+
+    <h1>Hospedando Vídeo do YouTube</h1> <!--Aqui, porém, se utiliza os dados do servidor externo-->
+    <p>Este vídeo foi INCORPORADO no meu site através do YouTube.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <h1>Hospedando Vídeo do Vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/514978874?h=0df06a0f3e&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+</html>

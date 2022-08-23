@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MÍDIAS EM HTML5</title>
+</head>
+<body>
+    <h1>IMAGEM DINÂMICA</h1>
+    <p>Tente abrir este site em dispositivos diferentes ou simplesmente aumente e diminua o tamanho do navegador.
+    </p>
+    <picture> <!--IMPORTANTE: COLOQUE OS SOURCES EM ORDEM DO MENOR AO MAIOR!-->
+        <source media="(max-width:750px )" srcset="imagens/abbeyroad_P.jpg" type="image/jpg">
+     
+        <source media="(max-width:1050px )" srcset="imagens/abbeyroad_M.jpg" type="image/jpg">
+
+        <img src="imagens/abbeyroad_G.jpg" alt="imagem flexível">
+    </picture>
+
+    <h1>ÁUDIOS</h1>
+    <p>Reproduzindo Áudios em HTML5.</p>
+    <audio preload="metadata" controls ><!--O Navegador irá testar os arquivos nesta ordem, até um deles sem compátivel-->
+      <source src="audios/funkysting.mp3" type="audio/mpeg"> 
+      <source src="audios/funkysting.ogg" type="audio/ogg">
+      <source src="audios/funkysting.wav" type="audio/wav">
+      <p>Infelizmente seu navegador não tem compatibilidade com arquivos de Áudio. <a href="audios/funkysting.mp3" download="funkysting.mp3" type="audio/mpeg">Clique aqui</a> para baixar o arquivo.</p>
+    </audio>
+    <!-- Formatos COMPÁTIVEIS com navegadores MP3 WAV OGG-->
+</body>
+</html>

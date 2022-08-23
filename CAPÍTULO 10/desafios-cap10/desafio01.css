@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 100%;
+    background-image: linear-gradient(45deg, );
+    
+}
+
+.titulo {
+    text-align: center;
+    padding: 15px;
+}
+.subtitulo-1 {
+    margin-left: 20%;
+    font-family:'Courier New', Courier, monospace ;
+}
+.foto {
+    margin-left: 17%;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.subtitulo-2 {
+    margin-left: 40px;
+    margin-top: 40px;
+    font-family:'Courier New', Courier, monospace ;
+}
+.links {
+    margin-left: 40px;
+    padding: 10px;
+}
